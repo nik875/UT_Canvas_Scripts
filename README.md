@@ -11,7 +11,11 @@
 		**Usage**: Recommended for attandance check if you don't want to show up to class that day. You can just sit at home, run the script and fill 
 		out the poll whenever there is a new one published.
 
-2. **AutoAttendance.js**
+		Recommended to add this script to Tampermonkey to automatically run it upon loading the Instapoll page. Also you must click somewhere on the page to enable audio, this is because of a browser security feature.
+
+		Tested and verified on Firefox.
+
+3. **AutoAttendance.js** (Not yet modernized, some alterations required from original)
 
 	Used for the Instapoll ( This is a different form a poll, not the same as UT InstaPoll) randomly pops up during online lectures. Automatically select a random answer to take attendance
 
